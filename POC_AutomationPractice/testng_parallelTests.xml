@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests"  name="suite">
+
+<listeners>
+	<listener class-name="org.uncommons.reportng.HTMLReporter" />
+ </listeners>
+ 
+  <test name="AutomationPractice_HomePage_Scripts" >
+	<classes>  
+		<class name="stepDefinitions.TS_VerifyHeader"/>
+		<class name="stepDefinitions.TS_VerifyFooter"/>  
+	</classes>
+  </test> <!-- Test -->
+  <test name="AutomationPractice_DressesPage_TestScripts" >
+	<classes>  
+		<class name="stepDefinitions.TS_DressesPageVerification"/> 
+	</classes>
+  </test> <!-- Test -->
+  <test name="AutomationPractice_General_TestScripts" >
+	<classes>  
+		<class name="stepDefinitions.TS_NL_Subscription"/> 
+		<class name="stepDefinitions.TS_CheckOut_Journey"/>
+	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
