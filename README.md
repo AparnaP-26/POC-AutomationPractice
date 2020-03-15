@@ -42,9 +42,11 @@ i.e. Then case is not validated
 
 Tests can be run in any browser, default browser selected is chrome
 Parallel execution of tests will be performed using testng_parallelTests.xml file
+
 ----------------------------------------------------------------------------------------------------------------------------------------
 Test Results:
 
 After execution is complete, output can be verified from test-output->html-> folder->index.html file.
-Open the file as Webbrowser, the Overview section displays the result of every test performed. The detailed report can be viewed when the suite link is clicked
+Open the file as WebBrowser, the Overview section displays the result of every test performed, The detailed report can be viewed when the suite link is clicked
+
 ----------------------------------------------------------------------------------------------------------------------------------------
