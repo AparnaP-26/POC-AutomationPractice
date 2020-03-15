@@ -10,6 +10,8 @@ Background: User opens the application
 
   Scenario: Verify the filters displayed in the Summer Dresses page
     When user clicks on Size filter
+    Then dresses with size filtered will only be displayed
 
   Scenario: Verify the sorting displayed in the Summer Dresses page
     When user clicks on sorting with price condition
+    Then the page will be displayed in sorted order of price
