@@ -37,7 +37,7 @@ Step Definitions have been created for all of the feature files as given below:
 5. TS_CheckOut_Journey.java---Test case will verify the checkout journey by adding any product to the cart(till authentication section is reached)
 
 Note: Filter and Sort in SummerDresses page will make the page hang because of which the results(with filter/sort applied) is not validated
-i.e. Then case is not validated
+i.e. "Then" case of the feature file is not validated
 
 Tests can be run in any browser, default browser selected is chrome
 Parallel execution of tests will be performed using testng_parallelTests.xml file
